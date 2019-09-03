@@ -33,7 +33,8 @@ $RECYCLE.BIN/
 .DS_Store
 Thumbs.db
 UserInterfaceState.xcuserstate
-
+.apk
+.keystore
 e2e/build
 /desktop/*
 !/desktop/assets/

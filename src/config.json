@@ -1,7 +1,7 @@
 {
-    "app_id": "com.triz.trizlms",
-    "appname": "TRIZ LMS",
-    "desktopappname": "TRIZ Desktop",
+    "app_id": "com.test.testbanq",
+    "appname": "TestBanQ",
+    "desktopappname": "TestBanQ",
     "versioncode": 3700,
     "versionname": "3.6.0",
     "cache_update_frequency_usually": 420000,
@@ -58,9 +58,9 @@
     "wsextservice": "local_mobile",
     "demo_sites": {
         "student": {
-            "url": "http:\/\/app.triz.co.in\/counselling",
-            "username": "user",
-            "password": "user12"
+            "url": "",
+            "username": "",
+            "password": ""
         },
         "teacher": {
             "url": "",
@@ -69,18 +69,18 @@
         }
     },
     "customurlscheme": "moodlemobile",
-    "siteurl": "http:\/\/app.triz.co.in\/counselling",
+    "siteurl": "https:\/\/testbanq.eslate.co.in",
     "sitename": "",
     "multisitesdisplay": "",
     "skipssoconfirmation": false,
     "forcedefaultlanguage": false,
     "privacypolicy": "https:\/\/moodle.org\/mod\/page\/view.php?id=8148",
-    "notificoncolor": "#2E55A9",
+    "notificoncolor": "#501C6A",
     "statusbarbg": false,
     "statusbarlighttext": false,
-    "statusbarbgios": "#2E55A9",
+    "statusbarbgios": "#501C6A",
     "statusbarlighttextios": true,
-    "statusbarbgandroid": "#2E55A9",
+    "statusbarbgandroid": "#501C6A",
     "statusbarlighttextandroid": true,
     "statusbarbgremotetheme": "#000000",
     "statusbarlighttextremotetheme": true,

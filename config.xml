@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.triz.trizlms" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>TRIZ LMS</name>
-    <description>TRIZ LMS app</description>
-    <author email="mobile@triz.com" href="http://triz.com">Triz Lms team</author>
+<widget id="com.test.testbanq" version="3.6.0" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TestBanQ</name>
+    <description>TestBanq</description>
+    <author email="support@eslate.co.in" href="https://testbanq.eslate.co.in">TestBanQ team</author>
     <content src="index.html" />
     <access origin="*" />
     <access launch-external="yes" origin="tel:*" />

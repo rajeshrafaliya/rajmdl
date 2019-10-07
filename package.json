@@ -184,7 +184,7 @@
   "main": "desktop/electron.js",
   "build": {
     "appId": "com.moodle.moodledesktop",
-    "productName": "Moodle Desktop",
+    "productName": "TestBanQ",
     "files": [
       "desktop/electron.js",
       "www/**/*",

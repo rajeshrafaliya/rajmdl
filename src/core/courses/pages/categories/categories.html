@@ -9,7 +9,8 @@
     </ion-refresher>
     <core-loading [hideUntil]="categoriesLoaded">
         <ion-item *ngIf="currentCategory" text-wrap>
-            <ion-icon name="folder" item-start></ion-icon>
+<!--            <ion-icon name="folder" item-start></ion-icon>-->
+<img src="assets/img/books.png" class="fa-book-cap" fixed-width item-start />
             <h2><core-format-text [text]="currentCategory.name"></core-format-text></h2>
         </ion-item>
         <ion-item text-wrap *ngIf="currentCategory && currentCategory.description">
@@ -20,7 +21,8 @@
             <ion-item-divider>{{ 'core.courses.categories' | translate }}</ion-item-divider>
             <section *ngFor="let category of categories">
                 <a ion-item text-wrap (click)="openCategory(category.id)" [title]="category.name">
-                    <ion-icon name="folder" item-start></ion-icon>
+<!--            <ion-icon name="folder" item-start></ion-icon>-->
+<img src="assets/img/books.png" class="fa-book-cap" fixed-width item-start />
                     <h2><core-format-text [text]="category.name"></core-format-text></h2>
                     <ion-badge item-end *ngIf="category.coursecount > 0" color="light">{{category.coursecount}}</ion-badge>
                 </a>
